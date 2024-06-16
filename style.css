@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b8b8b8;
+    padding: 16px;
+  }
+  
+  .container__logo {
+    color: #156039;
+  }
+  
+  .container__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container__nav--list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+  }
+  
+  .container__nav--list li {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+  }
